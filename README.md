@@ -1,2 +1,2 @@
 # jquery
-Usefull jquery functionalities
+Useful jquery functionalities
