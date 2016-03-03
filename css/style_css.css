@@ -1,0 +1,128 @@
+#opacity{width:1200px;
+         height:50px;
+		 text-align:center;
+		 line-height:50px;
+		background:rgba(0,0,0,0.5);/*when rgba(alpha) used , children won't be effected but if opacity used , children will be effected */
+		 color:white;
+		 padding:10px;
+		 -moz-border-radius:10px;
+		 -ms-border-radius:10px;
+		 -webkit-border-radius:10px;
+		 -o-border-radius:10px;
+		 border-radius:10px;
+		 
+         font-size:20px;
+		position:relative;
+  }
+  
+  #circle{
+ float:right; /* when float , position with margin and when relative/absolute, position with top/right/bottom/left */
+margin-top:-50px;
+ 
+   
+  background:rgb(196,15,24);
+  
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+  border-radius:10px;
+  width:20px;
+  height:20px;
+
+
+}
+
+#circle a{
+
+	position:relative; 
+	top:-18px;
+	text-align:center;
+	
+	font-size:10px;
+	text-decoration:none;
+	color:#fff;
+
+   
+
+}
+
+.round1, .round2, .round3 { 
+-moz-border-radius: 80px; -webkit-border-radius: 80px; 
+width: 154px; height: 154px; position:relative;
+}
+.round1 { 
+background-color: rgba(255,0,0,.5); 
+border: 3px solid #ff0000; 
+}
+.round2 { 
+background-color: rgba(0,255,0,.5); left: 80px; 
+top: -160px; border: 3px solid #00ff00; 
+}
+.round3 { 
+background-color: rgba(0,0,255,.5); left:40px; 
+top: -250px; text-align: center; 
+color:#FFFFFF; font: bold 26px Arial, Helvetica, sans-serif; 
+border: 3px solid #0000ff;
+}
+.round1:hover, .round2:hover, .round3:hover {
+border: 3px solid #ffff00;
+}
+
+
+body {
+   background: #f4f1e5;
+   color: #544738;
+   font-family: helvetica, sans-serif;
+}
+ul li{
+
+ float:left;
+ margin-right:1em;
+ list-style:none;
+}
+
+li a{color: #544738;
+   text-decoration:none;
+   float:left;
+   font-size:25px;
+   padding:12px;
+
+}
+li a:hover {
+
+color: #7eb9be;
+
+}
+
+.left:hover { /*if we put class on li instead of a , we set it as .left a:hover{} */
+/*transform*/
+-moz-transform: rotate(-10deg) scale(1.2);
+-webkit-transform: rotate(-10deg) scale(1.2);
+-o-transform:rotate(-10deg) scale(1.2);
+
+/*transition*/
+-moz-transition:ALL .5s ease;
+-webkit-transition:ALL .5s ease;
+-o-transition:All .5s ease;
+
+}
+
+.right:hover {
+/*transform*/
+-moz-transform: rotate(10deg) scale(1.2);
+-webkit-transform: rotate(10deg) scale(1.2);
+-o-transform:rotate(10deg) scale(1.2);
+
+/*transition*/
+-moz-transition:ALL .5s ease;
+-webkit-transition:ALL .5s ease;
+-o-transition:All .5s ease;
+
+
+}
+
+
+
+
+

@@ -1,0 +1,173 @@
+
+table, table tr, table td {border: 1px solid black; color:red;}
+
+.highlight {
+background-color:cyan;
+
+}
+a {text-decoration:none; color:blue;}
+
+ul { list-style:none; margin:0; padding:0; }
+
+.search_highlight { background-color: yellow;}
+.bold{font-weight:bold;}
+
+#message {border:1px solid cyan; width:300px;
+          padding:10px; margin:10px;}
+		  
+#hoverdiv{ display:none;
+          position:absolute;
+		  border:1px solid cyan;
+		  background:white;
+		  color:grey;
+		  font-size:14;
+		  padding:5px;
+		  }
+
+#fadeContainer{
+
+width:600px;
+height:574px;
+
+
+  }		  
+		  
+	  
+		  
+		  
+		  
+		  
+#slide_container{
+                width:126px; /* (100px width+ 20px of padding+ 3px of border) of slide_text */
+                float:right;
+                background:black;
+                }
+#slide_text {font-weight:bold;
+             font-size:20px;
+			 width:100px;
+			 padding:10px;
+			 background:grey;
+			 
+			 color:yellow;
+			 text-align:center;
+			 border:3px solid cyan;
+			 float:right;
+			 margin:0px;
+
+		  }
+		 
+#slide_div {width:104px; /* to get exact width of slide_text, slide_text's border is 3+3=6, slide_div's border is 1+1=2, so difference is 6-2=4 , so 100+4=104 */
+           display:none;
+           border:1px solid cyan;
+		   background:grey;
+		   
+		   color:red;
+		   padding:10px;
+		   float:right;
+		   margin:0px;
+		   clear:both;
+		   text-align:center;
+		   font-size:17px;
+         }
+body {
+background: #CBBF7E;
+
+}
+
+#very_center{
+
+ position:fixed;
+ width:250px;
+ height:250px;
+ background: rgba(210,16,126,0.1);
+ text-align:center;
+ line-height:250px;
+ -moz-border-radius:125px;
+ -webkit-border-radius:125px;
+ border-radius:125px;
+ -moz-box-shadow: inset 0 0 50px #000000;
+ -webkit-box-shadow: inset 0 0 50px #000000;
+ box-shadow: inset 0 0 50px #000000;
+ 
+
+
+
+	}
+	
+	
+#container{
+
+padding:20px;
+
+width:325px;
+height:200px;
+background:#33B2B3;
+color:#415B25;
+font-weight:bold;
+
+ -moz-border-radius:10px;
+ -webkit-border-radius:10px;
+ border-radius:10px;
+
+}
+.alert{
+
+font-size:14px;
+color:red;
+
+
+}
+.input {
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+
+
+}
+.login{
+background:#195F65;
+color:#B1DFE3;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+  -moz-box-shadow:    3px 3px 10px 1px #474747;
+  -webkit-box-shadow: 3px 3px 10px 1px #474747;
+  box-shadow:         3px 3px 10px 1px #474747;
+
+}
+#terms{
+width:150px;
+height:100px;
+
+
+
+}
+/*
+
+Useful information for javascript form validation
+
+email regular expression:
+/^[\w\-\.\+]+\@[a-zA-Z0-9\.\-]+\.[a-zA-Z0-9]{2,4}$/
+
+
+all number only regular expression:
+/^[0-9]+$/
+
+
+all letters only regular expression:
+/^[a-zA-Z]+$/
+
+
+mixture of number and letter only regular expression:
+/^[a-zA-Z0-9]+$/
+
+*/
+
+
+
+
+
+		  
+		  
+		  
+		  
